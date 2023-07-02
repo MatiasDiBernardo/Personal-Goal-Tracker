@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="img">
+    <file>maki.jpg</file>
+    <file>background.png</file>
+  </qresource>
+</RCC>

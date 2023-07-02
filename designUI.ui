@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>791</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="nameLabel">
+    <property name="geometry">
+     <rect>
+      <x>253</x>
+      <y>30</y>
+      <width>281</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>36</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Silly-senpai</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelProgramming">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>214</y>
+      <width>241</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Programming</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelReading">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>364</y>
+      <width>241</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Reading</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelMusic">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>524</y>
+      <width>241</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Music</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelGaming">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>214</y>
+      <width>241</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Gaming</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelLanguege">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>524</y>
+      <width>241</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Others</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelWatched">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>364</y>
+      <width>241</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Watched</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelLevelText">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>70</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Rockwell</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Level</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="foto">
+    <property name="geometry">
+     <rect>
+      <x>13</x>
+      <y>10</y>
+      <width>221</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/img/maki.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="assets/imagetest.qrc">:/img/maki.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNivelGeneral">
+    <property name="geometry">
+     <rect>
+      <x>675</x>
+      <y>100</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Rockwell Extra Bold</family>
+      <pointsize>22</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNivelProgramming">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>232</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Rockwell Extra Bold</family>
+      <pointsize>22</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNivelReading">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>381</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Rockwell Extra Bold</family>
+      <pointsize>22</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNivelMusic">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>540</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Rockwell Extra Bold</family>
+      <pointsize>22</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNivelLenguage">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>540</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Rockwell Extra Bold</family>
+      <pointsize>22</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNivelGaming">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>232</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Rockwell Extra Bold</family>
+      <pointsize>22</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNivelWatched">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>381</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Rockwell Extra Bold</family>
+      <pointsize>22</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="background">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>791</width>
+      <height>721</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/img/background.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonStats">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>680</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Stats</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonSave">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>680</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarInfProgramming">
+    <property name="geometry">
+     <rect>
+      <x>35</x>
+      <y>321</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarSupProgramming">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>320</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>10000</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarMidPrograming">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>321</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="barProgramming">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>290</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QProgressBar {
+	border-radius: 10px;
+	background-color:rgb(85, 170, 255);
+}
+QProgressBar::chunk{
+	border-radius: 10px;
+	background-color: rgb(85, 85, 255);
+}
+</string>
+    </property>
+    <property name="value">
+     <number>65</number>
+    </property>
+    <property name="textDirection">
+     <enum>QProgressBar::BottomToTop</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarInfReading">
+    <property name="geometry">
+     <rect>
+      <x>35</x>
+      <y>471</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarSupReading">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>470</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>10</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarMidReading">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>470</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="barReading">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>440</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QProgressBar {
+	border-radius: 10px;
+	background-color:rgb(85, 170, 255);
+}
+QProgressBar::chunk{
+	border-radius: 10px;
+	background-color: rgb(85, 85, 255);
+}
+</string>
+    </property>
+    <property name="value">
+     <number>65</number>
+    </property>
+    <property name="textDirection">
+     <enum>QProgressBar::BottomToTop</enum>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="barMusic">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>600</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QProgressBar {
+	border-radius: 10px;
+	background-color:rgb(85, 170, 255);
+}
+QProgressBar::chunk{
+	border-radius: 10px;
+	background-color: rgb(85, 85, 255);
+}
+</string>
+    </property>
+    <property name="value">
+     <number>65</number>
+    </property>
+    <property name="textDirection">
+     <enum>QProgressBar::BottomToTop</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarInfMusic">
+    <property name="geometry">
+     <rect>
+      <x>35</x>
+      <y>631</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarSupMusic">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>630</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>10</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarMidMusic">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>630</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="barGaming">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>290</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QProgressBar {
+	border-radius: 10px;
+	background-color:rgb(85, 170, 255);
+}
+QProgressBar::chunk{
+	border-radius: 10px;
+	background-color: rgb(85, 85, 255);
+}
+</string>
+    </property>
+    <property name="value">
+     <number>65</number>
+    </property>
+    <property name="textDirection">
+     <enum>QProgressBar::BottomToTop</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarInfGaming">
+    <property name="geometry">
+     <rect>
+      <x>425</x>
+      <y>321</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarSupGaming">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>320</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>100</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarMidGaming">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>320</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="barWatched">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>440</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QProgressBar {
+	border-radius: 10px;
+	background-color:rgb(85, 170, 255);
+}
+QProgressBar::chunk{
+	border-radius: 10px;
+	background-color: rgb(85, 85, 255);
+}
+</string>
+    </property>
+    <property name="value">
+     <number>65</number>
+    </property>
+    <property name="textDirection">
+     <enum>QProgressBar::BottomToTop</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarInfWatched">
+    <property name="geometry">
+     <rect>
+      <x>425</x>
+      <y>471</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarSupWatched">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>470</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>10</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarMidWatched">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>470</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="barLenguage">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>600</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QProgressBar {
+	border-radius: 10px;
+	background-color:rgb(85, 170, 255);
+}
+QProgressBar::chunk{
+	border-radius: 10px;
+	background-color: rgb(85, 85, 255);
+}
+</string>
+    </property>
+    <property name="value">
+     <number>65</number>
+    </property>
+    <property name="textDirection">
+     <enum>QProgressBar::BottomToTop</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarInfLenguage">
+    <property name="geometry">
+     <rect>
+      <x>425</x>
+      <y>631</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarSupLenguage">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>630</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>10</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarMidLenguage">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>630</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ExplanText">
+    <property name="geometry">
+     <rect>
+      <x>253</x>
+      <y>100</y>
+      <width>321</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element</family>
+      <pointsize>9</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>Tracker con la distribución de horas de las tareas mas relevantes. El objetivo general es mantener un seguimiento del tiempo que dedico a distintas tareas y poder organizar mis objetivos de una forma dinámica y entretenida.</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelCheckEntry">
+    <property name="geometry">
+     <rect>
+      <x>365</x>
+      <y>680</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>_________</string>
+    </property>
+   </widget>
+   <zorder>background</zorder>
+   <zorder>nameLabel</zorder>
+   <zorder>labelProgramming</zorder>
+   <zorder>labelReading</zorder>
+   <zorder>labelMusic</zorder>
+   <zorder>labelGaming</zorder>
+   <zorder>labelLanguege</zorder>
+   <zorder>labelWatched</zorder>
+   <zorder>labelLevelText</zorder>
+   <zorder>foto</zorder>
+   <zorder>labelNivelGeneral</zorder>
+   <zorder>labelNivelProgramming</zorder>
+   <zorder>labelNivelReading</zorder>
+   <zorder>labelNivelMusic</zorder>
+   <zorder>labelNivelLenguage</zorder>
+   <zorder>labelNivelGaming</zorder>
+   <zorder>labelNivelWatched</zorder>
+   <zorder>buttonStats</zorder>
+   <zorder>buttonSave</zorder>
+   <zorder>labelBarInfProgramming</zorder>
+   <zorder>labelBarSupProgramming</zorder>
+   <zorder>labelBarMidPrograming</zorder>
+   <zorder>barProgramming</zorder>
+   <zorder>labelBarInfReading</zorder>
+   <zorder>labelBarSupReading</zorder>
+   <zorder>labelBarMidReading</zorder>
+   <zorder>barReading</zorder>
+   <zorder>barMusic</zorder>
+   <zorder>labelBarInfMusic</zorder>
+   <zorder>labelBarSupMusic</zorder>
+   <zorder>labelBarMidMusic</zorder>
+   <zorder>barGaming</zorder>
+   <zorder>labelBarInfGaming</zorder>
+   <zorder>labelBarSupGaming</zorder>
+   <zorder>labelBarMidGaming</zorder>
+   <zorder>barWatched</zorder>
+   <zorder>labelBarInfWatched</zorder>
+   <zorder>labelBarSupWatched</zorder>
+   <zorder>labelBarMidWatched</zorder>
+   <zorder>barLenguage</zorder>
+   <zorder>labelBarInfLenguage</zorder>
+   <zorder>labelBarSupLenguage</zorder>
+   <zorder>labelBarMidLenguage</zorder>
+   <zorder>ExplanText</zorder>
+   <zorder>labelCheckEntry</zorder>
+  </widget>
+  <action name="actionStats">
+   <property name="text">
+    <string>Stats</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="assets/imagetest.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SecondWindow</class>
+ <widget class="QMainWindow" name="SecondWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>502</width>
+    <height>539</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="activity1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>74</y>
+      <width>311</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Code</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="generalName">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>14</y>
+      <width>301</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>36</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>NOmbre</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="barActivity1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>144</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QProgressBar {
+	border-radius: 10px;
+	background-color:rgb(85, 170, 255);
+}
+QProgressBar::chunk{
+	border-radius: 10px;
+	background-color: rgb(85, 85, 255);
+}
+</string>
+    </property>
+    <property name="value">
+     <number>65</number>
+    </property>
+    <property name="textDirection">
+     <enum>QProgressBar::BottomToTop</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNivelAct1">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>84</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Rockwell Extra Bold</family>
+      <pointsize>22</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addButtonAct1">
+    <property name="geometry">
+     <rect>
+      <x>375</x>
+      <y>138</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #2B5DD1;
+    color: #FFFFFF;
+    border-style: outset;
+    padding: 2px;
+    font: bold 20px;
+    border-width: 6px;
+    border-radius: 10px;
+    border-color: #2752B8;
+}
+QPushButton:hover {
+    background-color: lightgreen;
+}</string>
+    </property>
+    <property name="text">
+     <string>+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="minusButtonAct1">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>138</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #2B5DD1;
+    color: #FFFFFF;
+    border-style: outset;
+    padding: 2px;
+    font: bold 20px;
+    border-width: 6px;
+    border-radius: 10px;
+    border-color: #2752B8;
+}
+QPushButton:hover {
+    background-color: rgb(216, 25, 25);
+}</string>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarMidAct1">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>178</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarInfAct1">
+    <property name="geometry">
+     <rect>
+      <x>27</x>
+      <y>178</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarSupAct1">
+    <property name="geometry">
+     <rect>
+      <x>332</x>
+      <y>177</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>10</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addButtonAct2">
+    <property name="geometry">
+     <rect>
+      <x>375</x>
+      <y>288</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #2B5DD1;
+    color: #FFFFFF;
+    border-style: outset;
+    padding: 2px;
+    font: bold 20px;
+    border-width: 6px;
+    border-radius: 10px;
+    border-color: #2752B8;
+}
+QPushButton:hover {
+    background-color: lightgreen;
+}</string>
+    </property>
+    <property name="text">
+     <string>+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="minusButtonAct2">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>288</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #2B5DD1;
+    color: #FFFFFF;
+    border-style: outset;
+    padding: 2px;
+    font: bold 20px;
+    border-width: 6px;
+    border-radius: 10px;
+    border-color: #2752B8;
+}
+QPushButton:hover {
+    background-color: rgb(216, 25, 25);
+}</string>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="barActivity2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>294</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QProgressBar {
+	border-radius: 10px;
+	background-color:rgb(85, 170, 255);
+}
+QProgressBar::chunk{
+	border-radius: 10px;
+	background-color: rgb(85, 85, 255);
+}
+</string>
+    </property>
+    <property name="value">
+     <number>65</number>
+    </property>
+    <property name="textDirection">
+     <enum>QProgressBar::BottomToTop</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarInfAct2">
+    <property name="geometry">
+     <rect>
+      <x>27</x>
+      <y>328</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="activity2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>224</y>
+      <width>311</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Code</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarMidAct2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>328</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarSupAct2">
+    <property name="geometry">
+     <rect>
+      <x>332</x>
+      <y>327</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>10000</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNivelAct2">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>234</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Rockwell Extra Bold</family>
+      <pointsize>22</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addButtonAct3">
+    <property name="geometry">
+     <rect>
+      <x>375</x>
+      <y>434</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #2B5DD1;
+    color: #FFFFFF;
+    border-style: outset;
+    padding: 2px;
+    font: bold 20px;
+    border-width: 6px;
+    border-radius: 10px;
+    border-color: #2752B8;
+}
+QPushButton:hover {
+    background-color: lightgreen;
+}</string>
+    </property>
+    <property name="text">
+     <string>+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="minusButtonAct3">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>434</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #2B5DD1;
+    color: #FFFFFF;
+    border-style: outset;
+    padding: 2px;
+    font: bold 20px;
+    border-width: 6px;
+    border-radius: 10px;
+    border-color: #2752B8;
+}
+QPushButton:hover {
+    background-color: rgb(216, 25, 25);
+}</string>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="barActivity3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>440</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QProgressBar {
+	border-radius: 10px;
+	background-color:rgb(85, 170, 255);
+}
+QProgressBar::chunk{
+	border-radius: 10px;
+	background-color: rgb(85, 85, 255);
+}
+</string>
+    </property>
+    <property name="value">
+     <number>65</number>
+    </property>
+    <property name="textDirection">
+     <enum>QProgressBar::BottomToTop</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarInfAct3">
+    <property name="geometry">
+     <rect>
+      <x>27</x>
+      <y>474</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="activity3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>370</y>
+      <width>311</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Hola</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarMidAct3">
+    <property name="geometry">
+     <rect>
+      <x>152</x>
+      <y>473</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarSupAct3">
+    <property name="geometry">
+     <rect>
+      <x>332</x>
+      <y>473</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Artifakt Element Light</family>
+      <pointsize>14</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>10</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNivelAct3">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>380</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Rockwell Extra Bold</family>
+      <pointsize>22</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>511</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="assets/img2.qrc">:/im2/background.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>activity1</zorder>
+   <zorder>generalName</zorder>
+   <zorder>barActivity1</zorder>
+   <zorder>labelNivelAct1</zorder>
+   <zorder>addButtonAct1</zorder>
+   <zorder>minusButtonAct1</zorder>
+   <zorder>labelBarMidAct1</zorder>
+   <zorder>labelBarInfAct1</zorder>
+   <zorder>labelBarSupAct1</zorder>
+   <zorder>addButtonAct2</zorder>
+   <zorder>minusButtonAct2</zorder>
+   <zorder>barActivity2</zorder>
+   <zorder>labelBarInfAct2</zorder>
+   <zorder>activity2</zorder>
+   <zorder>labelBarMidAct2</zorder>
+   <zorder>labelBarSupAct2</zorder>
+   <zorder>labelNivelAct2</zorder>
+   <zorder>addButtonAct3</zorder>
+   <zorder>minusButtonAct3</zorder>
+   <zorder>barActivity3</zorder>
+   <zorder>labelBarInfAct3</zorder>
+   <zorder>activity3</zorder>
+   <zorder>labelBarMidAct3</zorder>
+   <zorder>labelBarSupAct3</zorder>
+   <zorder>labelNivelAct3</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="assets/img2.qrc"/>
+ </resources>
+ <connections/>
+</ui>
